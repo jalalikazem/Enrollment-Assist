@@ -33,7 +33,7 @@ public class IsPassedTests {
     private static Stream<Arguments> provideData() {
         String term = "00001";
         String courseNumber = getRandomNumericString(7);
-        String title = "ECE_Cource";
+        String title = "ECE_Course";
 
         return Stream.of(
                 Arguments.of(term, courseNumber, title, 1, GraduateLevel.Undergraduate, 8, false),
