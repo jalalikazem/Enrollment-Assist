@@ -110,7 +110,7 @@ public class EnrollmentList {
         return violations;
     }
 
-    List<EnrollmentRuleViolation> checkValidGPALimit() {
+    public List<EnrollmentRuleViolation> checkValidGPALimit() {
         Grade GPA = owner.calculateGPA();
         GraduateLevel ownerGraduateLevel = owner.getGraduateLevel();
         int credits = sections.stream().mapToInt(section -> section.getCourse().getCredits()).sum();
