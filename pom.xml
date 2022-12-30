@@ -128,7 +128,7 @@
                         <param>ir.proprog.enrollassist.domain.enrollmentList.*</param>
                     </targetClasses>
                     <targetTests>
-                        <param>Koofti.CA5MutationTest.*</param>
+                        <param>resources.CA5MutationTest.*</param>
                     </targetTests>
                 </configuration>
             </plugin>

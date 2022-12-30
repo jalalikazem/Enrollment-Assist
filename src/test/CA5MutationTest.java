@@ -1,5 +1,3 @@
-package Koofti;
-
 import ir.proprog.enrollassist.Exception.ExceptionList;
 import ir.proprog.enrollassist.domain.course.Course;
 import ir.proprog.enrollassist.domain.enrollmentList.EnrollmentList;
