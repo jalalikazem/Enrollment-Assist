@@ -28,6 +28,7 @@ public class Course {
     @ManyToMany
     private Set<Course> prerequisites = new HashSet<>();
 
+    //Test
     public Course(String courseNumber, String title, int credits, String graduateLevel) throws ExceptionList {
         ExceptionList exceptionList = new ExceptionList();
         if (title.equals("")) {
@@ -81,6 +82,7 @@ public class Course {
         this.prerequisites = prerequisites;
     }
 
+    //Test
     public List<EnrollmentRuleViolation> canBeTakenBy(Student student) {
         List<EnrollmentRuleViolation> violations = new ArrayList<>();
         Set<Course> prereqs = getPrerequisites();
